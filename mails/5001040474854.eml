@@ -1,0 +1,44 @@
+Return-path: <plc_owa_mail@cde.vtb.ru>
+Authentication-Results: mail.mail123.ru;
+	spf=pass smtp.mailfrom=plc_owa_mail@cde.vtb.ru;
+	dkim=pass (good signature) header.d=vtb.ru header.b=PGo+7meB6b;
+	dmarc=pass header.from=cde.vtb.ru (p=reject sampling=87 pct=100);
+	iprev=pass policy.iprev=195.242.83.147 (PTR mx2005.vtb.ru);
+	iprev=pass policy.iprev=195.242.83.147 (HELO mx2005.vtb.ru);
+	iprev=pass policy.iprev=195.242.83.147 (MAIL plc_owa_mail@cde.vtb.ru)
+Received: by mail123.ru with ESMTPS id 5001103567121; Sun, 22 Dec 2024 13:56:14 +0300
+X-Rcpt-To: zaharov@nafta-oil.ru
+X-MDRcpt-To: zaharov@nafta-oil.ru
+X-Return-Path: plc_owa_mail@cde.vtb.ru
+X-Envelope-From: plc_owa_mail@cde.vtb.ru
+Received: from mx2005.vtb.ru (localhost [127.0.0.1])
+	by mx2005.vtb.ru (Postfix) with ESMTP id 0CE3460048
+	for <zaharov@nafta-oil.ru>; Sun, 22 Dec 2024 13:55:53 +0300 (MSK)
+DKIM-Filter: OpenDKIM Filter v2.11.0 mx2005.vtb.ru 0CE3460048
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vtb.ru; s=vtbb;
+	t=1734864953; bh=SAlxO9FRqN3/CaLvqnCWrrjfubh/F4o5lJqVJ/XKiWs=;
+	h=Content-Type:MIME-Version:From:To:Subject:Message-ID:Date:From;
+	b=PGo+7meB6b52KDLmvZs44EB+wvQgYsviSFYcnYD8986+lwPouCUETrpXIEpoKZaKF
+	 WF9GRX/NM3/WV/6HzNMKDCUbJGqNfarHVUxIiTJaoJnIGrvWWCfMAIHLiDJjXG03VO
+	 iqZLKV2NVYUveaPfjsCwmVJFgjeoNDJT96azFaLYwuQEUui6L8YFbd5WByUH0k+hwc
+	 N2chf6SweJZ1EaDRdzbBA8AtbOJhnXcaikO/XU+HdFgWOu4oZLexr8wahUkx22yhyc
+	 rdjeYZBi9povbAi32KGWll+i4rXPvyOggpYD5SX0WHeXfrTrAyfcMlFBB2sFisrgLj
+	 LlapELIHx8woQ==
+Content-Type: multipart/mixed;
+	boundary="===============3329730090437245728=="
+MIME-Version: 1.0
+From: <plc_owa_mail@cde.vtb.ru>
+To: <zaharov@nafta-oil.ru>
+Subject: (Archive Copy) =?utf-8?b?UHJvY2Vzc2luZyBjZW50ZXIgcmVwb3J0IEZJTEU6INCV0LbQtdC00L3QtdCy0L3Ri9C5INC+0YLRh9GR0YIg0L/QviDQyLmNzdi56aXA=?=
+Message-ID: <20241222105551.E82E01AC803@p0wayi-ap2011lv.cde.vtb>
+Date: Sun, 22 Dec 2024 13:55:51 +0300
+X-ClientProxiedBy: p0exch-mx2004wv.cde.vtb (10.180.36.134) To
+ P0EXCH-MX5004WV.cde.vtb (10.180.36.102)
+
+--===============3329730090437245728==
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="=?cp1251?b?ZF8yMS0xMi0yMDI0X87B2cXR0sLOX9FfzsPQwM3I18XNzc7JX87SwsXS0dLCxc3N?=
+ =?cp1251?b?ztHS3N5f0MXR0s7QwM1fws3Tys7Czl9faW5ueHh4MzQzMi5jc3Yuemlw?="
+Content-Type: application/octet-stream

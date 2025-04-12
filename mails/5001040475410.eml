@@ -1,0 +1,42 @@
+Return-path: <com@bkremont.ru>
+X-Spam-Flag: YES
+Authentication-Results: mail.mail123.ru;
+	spf=pass smtp.mailfrom=com@bkremont.ru;
+	dkim=pass (good signature) header.d=bkremont.ru header.b=a+Y08sT4+m;
+	iprev=pass policy.iprev=178.154.239.150 (PTR forward103b.mail.yandex.net);
+	iprev=pass policy.iprev=178.154.239.150 (HELO forward103b.mail.yandex.net);
+	iprev=fail reason="does not match" policy.iprev=178.154.239.150 (MAIL com@bkremont.ru)
+Received: by mail123.ru with ESMTPS id 5001103567678; Sun, 22 Dec 2024 16:32:50 +0300
+X-Rcpt-To: cherbakova@moscow.moscow
+X-MDRcpt-To: cherbakova@moscow.moscow
+X-Return-Path: com@bkremont.ru
+X-Envelope-From: com@bkremont.ru
+Received: from mail-nwsmtp-mxback-production-main-535.iva.yp-c.yandex.net (mail-nwsmtp-mxback-production-main-535.iva.yp-c.yandex.net [IPv6:2a02:6b8:c0c:799f:0:640:e10f:0])
+	by forward103b.mail.yandex.net (Yandex) with ESMTPS id 068F060AA4
+	for <cherbakova@moscow.moscow>; Sun, 22 Dec 2024 16:32:26 +0300 (MSK)
+Received: from mail.yandex.ru (2a02:6b8:c0c:1296:0:640:fedb:0 [2a02:6b8:c0c:1296:0:640:fedb:0])
+	by mail-nwsmtp-mxback-production-main-535.iva.yp-c.yandex.net (mxback/Yandex) with HTTPS id JWVa11EOvOs0-MAddq08g;
+	Sun, 22 Dec 2024 16:32:25 +0300
+X-Yandex-Fwd: 1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=bkremont.ru; s=mail;
+	t=1734874345; bh=002COo9n5xCc0emAiP5rXqv1aKXRjBb2ZP3XhdkFdNI=;
+	h=Message-Id:Date:Subject:To:From;
+	b=a+Y08sT4+msXOxT8zAcmvTB1k/kDiHlqQkTjOEsE0ICFhlCFpWIM+qqX8bYJFR9H0
+	 KXleI9c2B7Ubt75K1W3+cy2Wn1/F6kweuMNzLd8i6dPO8Dgd2c12Zgoqt/BWiaO54f
+	 nUjUZKzD40SB9S2o3IRso41BM+145hRIlW8NMVWk=
+Authentication-Results: mail-nwsmtp-mxback-production-main-535.iva.yp-c.yandex.net; dkim=pass header.i=@bkremont.ru
+Received: by ybzyx5bgt3byggqr.iva.yp-c.yandex.net with HTTP;
+	Sun, 22 Dec 2024 16:32:25 +0300
+From: =?utf-8?B?0JTQuNGA0LXQutGC0L7RgCDQmtC+0LzQvNC10YDRh9C10YHQutC40Lk=?= <com@bkremont.ru>
+To: "cherbakova@moscow.moscow" <cherbakova@moscow.moscow>
+Subject: [***SPAM*** Score/Req: 08.5/6.0] (Archive Copy) =?utf-8?B?0JfQsNC60LDQtw==?=
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Sun, 22 Dec 2024 16:32:25 +0300
+Message-Id: <153641734874320@mail.yandex.ru>
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset=utf-8
+
+PGRpdj48dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIHdp
+aXY+PGRpdj7QntCe0J4gItCc0JDQodCi0JXQoCDQnNCV0JHQldCb0KwiPC9kaXY+PGRpdj7CoDwv
+ZGl2PjwvZGl2Pg==

@@ -1,0 +1,50 @@
+Return-path: <bounces+6135061-b2ab-reception=konobeevo.ru@em9214.hotbot.ai>
+Authentication-Results: mail.mail123.ru;
+	spf=pass smtp.mailfrom=bounces+6135061-b2ab-reception=konobeevo.ru@em9214.hotbot.ai;
+	dkim=pass (good signature) header.d=hotbot.ai header.b=cew9LLPwX7;
+	dmarc=pass header.from=hotbot.ai (p=none sampling=26 pct=100);
+	iprev=pass policy.iprev=149.72.203.248 (PTR o1.urls.hotbot.ai);
+	iprev=pass policy.iprev=149.72.203.248 (HELO o1.urls.hotbot.ai);
+	iprev=fail reason="does not match" policy.iprev=149.72.203.248 (MAIL bounces+6135061-b2ab-reception=konobeevo.ru@em9214.hotbot.ai)
+Received: by mail123.ru with ESMTPS id 5001103567619; Sun, 22 Dec 2024 16:15:38 +0300
+X-Rcpt-To: reception@konobeevo.ru
+X-MDRcpt-To: reception@konobeevo.ru
+X-Return-Path: bounces+6135061-b2ab-reception=konobeevo.ru@em9214.hotbot.ai
+X-Envelope-From: bounces+6135061-b2ab-reception=konobeevo.ru@em9214.hotbot.ai
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotbot.ai;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=Y3O8EYVNjoRHicMMxjxXyjhiWSZp11mH1SAWtbFN+yg=;
+	b=cew9LLPwX7jLjlmubsXP1yaoWIyUhwWoXayK6oqnTdadV0PenbktuM92g7APD8uusOab
+	9Tlr7h6xkfQalXad5OH685PThpwH7klTUNMpP+4xyJBVZ/oDqSpWNClU5dOTLO0LeVLY/Q
+	XlduFJe+YrrQWTA4vBZ6Uu+U3XGf2LScR3MQCnUCU8nhARj3xC9aP2wWC+rnqT92blpTlM
+	v4ezuOV7bW4Z7SKm0lVLGV/6mymgX89EdRRIEZByTOXZ0+xvU+5yNpiCWXOurEscw6aD/9
+	B1hPi6/wrRwIsBBN8mRI/BjdlS82As3ZwAy4dHR4E70YjGJpzPa8zQnumWLI7GUQ==
+Received: by recvd-5c8ccdbd88-mbfdl with SMTP id recvd-5c8ccdbd88-mbfdl-1-676810DB-10
+	2024-12-22 13:15:07.380513614 +0000 UTC m=+3253948.447919204
+Received: from NjEzNTA2MQ (unknown)
+	by geopod-ismtpd-7 (SG) with HTTP
+	id 1zkVKywZShGtWlFrw5DMCQ
+	Sun, 22 Dec 2024 13:15:07.263 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Sun, 22 Dec 2024 13:15:07 +0000 (UTC)
+From: Hotbot <noreply@hotbot.ai>
+Mime-Version: 1.0
+Message-ID: <1zkVKywZShGtWlFrw5DMCQ@geopod-ismtpd-7>
+Subject: (Archive Copy) =?UTF-8?B?0J3QvtCy0YvQuSDQvtGC0LfRi9Cy?= #41
+X-SG-EID: 
+ =?us-ascii?Q?u001=2E9s8QjlPnktZQTWzHL=2FYCReBsopHXB=2Fh=2FuPOGAItFqO1omtF4AAbGFpqGT?=
+ =?us-ascii?Q?xRlmZ5b6H+B6EUWEeVpuJQLU+wVJzHDWE49dCST?=
+ =?us-ascii?Q?dHRfKszqkrm3Bgwtgzxs6NsktB0po=2FTh8pyBjjY?=
+ =?us-ascii?Q?PVwYZwTNzFOHYQ8qBfv1VXKUBCOBYDmnbhaXFzL?=
+ =?us-ascii?Q?kYPwuwopuT3j=2FtgW=2FLmwEd8WbxnMpoCz2FTFQkf?=
+ =?us-ascii?Q?w6bOvo8397LP7FyzhuEds0=3D?=
+To: reception@konobeevo.ru
+X-Entity-ID: u001.o2tJ6TqiS7QBve9x+ismhg==
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+</html>
+ =20=
